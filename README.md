@@ -2,13 +2,9 @@
 
 ## A Beginner's Journey Through React Router v6
 
-![React Router Demo](navflow.png)
 
 ### 🔗 Live Demo: [View Live Demo](https://navflow.netlify.app/)
-
-
-
-
+![React Router Demo](navflow.png)
 
 ### 📚 What You'll Learn:
 - ✅ Basic routing setup
