@@ -4,7 +4,7 @@
 
 ![React Router Demo](navflow.png)
 
-### 🔗 Live Demo: [https://route-explorer-demo.netlify.app](https://route-explorer-demo.netlify.app)
+### 🔗 Live Demo: [navflow.netlify.app)
 
 ### 📚 What You'll Learn:
 - ✅ Basic routing setup
