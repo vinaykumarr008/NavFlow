@@ -1,0 +1,176 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navigation */
+.navbar {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-link:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Active link style */
+.active {
+  background: #764ba2;
+  color: white;
+}
+
+/* Page Content */
+.content {
+  min-height: 300px;
+  padding: 20px;
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.page {
+  text-align: center;
+}
+
+.page h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.page p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* Contact Card */
+.contact-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-card p {
+  margin: 10px 0;
+}
+
+/* Lists */
+ul {
+  text-align: left;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #666;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* User List Styles */
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-link {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  background: #eef2ff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #667eea;
+  transition: all 0.3s ease;
+}
+
+.user-link:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(10px);
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #764ba2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover {
+  background: #5a3780;
+  transform: scale(1.05);
+}
