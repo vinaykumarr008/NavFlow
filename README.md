@@ -1,8 +1,8 @@
-# 🧭 React Route Explorer
+# 🧭 NAVFLOW
 
 ## A Beginner's Journey Through React Router v6
 
-![React Router Demo](screenshot.png)
+![React Router Demo](navflow.png)
 
 ### 🔗 Live Demo: [https://route-explorer-demo.netlify.app](https://route-explorer-demo.netlify.app)
 
